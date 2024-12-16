@@ -16,8 +16,8 @@ To run the dashboard:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/yourrepo.git
-    cd yourrepo
+    git clone https://github.com/nalikapalayoor/heart_disease_dashboard.git
+    cd heart_disease_dashboard
     ```
 
 2. Install dependencies:
