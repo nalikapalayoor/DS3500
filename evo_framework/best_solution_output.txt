@@ -1,0 +1,74 @@
+This solution matirx is the best solution I produced. This solution has the least amount of total penalty, for this solution, all the 
+factors are under 5 except for unwilling, which was the hardest constraint to minimize. 
+
+I got this file by running python evo.py > best_solution_output.txt in the terminal, and the evolution scores, solution, and runtime 
+were automatically loaded into this file. 
+
+
+Evolution process completed in 300.03 seconds
+Best Solution:
+Evaluation Scores: (('overallocation', np.int64(1)), ('conflicts', 0), ('undersupport', np.int64(4)), ('unwilling', 12), ('unpreferred', 5))
+Solution Matrix:
+ [[0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0]
+ [0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1]
+ [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0]
+ [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1]
+ [1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0]
+ [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1]
+ [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0]
+ [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0]
+ [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]]
+Sun Nov 17 20:17:40 2024    evolution_profile.prof
+
+         1267081773 function calls (1238640559 primitive calls) in 301.329 seconds
+
+   Ordered by: internal time
+   List reduced from 225 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+ 16483595   25.860    0.000  262.401    0.000 /opt/anaconda3/envs/ds/lib/python3.11/site-packages/pandas/core/indexing.py:1176(__getitem__)
+ 15651288   20.135    0.000   27.888    0.000 /opt/anaconda3/envs/ds/lib/python3.11/site-packages/pandas/core/internals/managers.py:1012(iget)
+ 46953865   17.707    0.000   17.707    0.000 /opt/anaconda3/envs/ds/lib/python3.11/site-packages/pandas/core/generic.py:6301(__setattr__)
+ 15651288   16.612    0.000   24.834    0.000 /opt/anaconda3/envs/ds/lib/python3.11/site-packages/pandas/core/generic.py:6236(__finalize__)
+ 15651288   12.136    0.000  141.776    0.000 /opt/anaconda3/envs/ds/lib/python3.11/site-packages/pandas/core/frame.py:3983(_ixs)
+ 16483595   11.655    0.000   39.109    0.000 /opt/anaconda3/envs/ds/lib/python3.11/site-packages/pandas/core/indexing.py:2765(check_dict_or_set_indexers)
+ 15651288   11.450    0.000   79.822    0.000 /opt/anaconda3/envs/ds/lib/python3.11/site-packages/pandas/core/frame.py:4608(_box_col_values)
+ 15651288   11.218    0.000   13.838    0.000 /opt/anaconda3/envs/ds/lib/python3.11/site-packages/pandas/core/generic.py:278(__init__)
+ 31302576    9.739    0.000   12.960    0.000 /opt/anaconda3/envs/ds/lib/python3.11/site-packages/pandas/core/indexes/base.py:5373(__getitem__)
+ 33044614    9.523    0.000   24.281    0.000 {built-in method builtins.any}
+
+
